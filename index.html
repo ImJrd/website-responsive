@@ -8,10 +8,12 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Página web Jrd</title>
+        <title>ImJrd</title>
 
         <link rel="stylesheet" href="/css/style.css">
 
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+        
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
     </head>
@@ -32,11 +34,11 @@
 
                     <div class="links">
 
-                        <a href="#" class="link">Inicio</a>
-                        <a href="#" class="link">Servicios</a>
-                        <a href="#" class="link">Proyectos</a>
-                        <a href="#" class="link">Clientes</a>
-                        <a href="#" class="link link_active">Contacto</a>
+                        <a href="index.html" class="link">Inicio</a>
+                        <a href="#services" class="link">Servicios</a>
+                        <a href="#projects" class="link">Proyectos</a>
+                        <a href="#clients" class="link">Clientes</a>
+                        <a href="#footer" class="link link_active">Contacto</a>
                     </div>
 
                 </div>
@@ -63,7 +65,7 @@
 
         <main>
 
-            <section class="services">
+            <section class="services" id="services">
 
                 <div class="container">
 
@@ -71,7 +73,7 @@
 
                     <p class="copy_section">Ofrecemos las soluciones perfectas para tu revolución.</p>
 
-                    <article class="container-cards">
+                    <article class="container_cards">
 
                         <div class="card">
 
@@ -81,7 +83,7 @@
 
                                 <p class="card_list">Especialistas en diseño UX / UI</p>
 
-                                <h3 class="card_title">Web apps <span class="point">.</span></h3>
+                                <h3 class="card_title">Web apps<span class="point">.</span></h3>
 
                                 <p class="card_copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, adipisci suscipit vero provident et repudiandae commodi ex ipsam tempora. Aut.</p>
 
@@ -99,7 +101,7 @@
                         
                                 <p class="card_list">Especialistas en diseño UX / UI</p>
                         
-                                <h3 class="card_title">Diseño web <span class="point">.</span></h3>
+                                <h3 class="card_title">Diseño web<span class="point">.</span></h3>
                         
                                 <p class="card_copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, adipisci suscipit vero
                                     provident et repudiandae commodi ex ipsam tempora. Aut.</p>
@@ -118,7 +120,7 @@
                         
                                 <p class="card_list">Especialistas en diseño UX / UI</p>
                         
-                                <h3 class="card_title">Ecommerce <span class="point">.</span></h3>
+                                <h3 class="card_title">Ecommerce<span class="point">.</span></h3>
                         
                                 <p class="card_copy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, adipisci suscipit vero provident et repudiandae commodi ex ipsam tempora. Aut.</p>
                         
@@ -134,13 +136,13 @@
 
             </section>
 
-            <section class="projects container">
+            <section class="projects container" id="projects">
 
                 <h2 class="subtitle">Proyectos recientes<span class="point">.</span></h2>
 
                 <p class="copy_section">Hemos colaborado con marcas reconocidas a nivel mundial</p>
                 
-                <article class="container-bg">
+                <article class="container_bg">
 
                     <div class="card">
                                         
@@ -207,15 +209,15 @@
 
             </section>
 
-            <section class="testimony">
+            <section class="testimony" id="clients">
 
                 <div class="container">
 
-                    <h2 class="subtitle">CLientes satisfechos<span class="point">.</span></h2>
+                    <h2 class="subtitle">Clientes satisfechos<span class="point">.</span></h2>
                                     
                     <p class="copy_section">Cientos de empresas confian en nosotros</p>
                     
-                    <div class="testimony-container">
+                    <div class="testimony_container">
 
                         <div class="testimony_card">
 
@@ -267,7 +269,7 @@
                             
                                 <div class="testimony_copy testimony_copy_modifier">
                                 
-                                    <img src="img/first-person.jpg" alt="Google logo" class="testimony_logo logo_picture">
+                                    <img src="img/first-person.jpg" class="testimony_logo logo_picture">
                                 
                                     <div class="testimony_info">
                                 
@@ -343,7 +345,7 @@
 
                 <form class="newsletter" method="POST">
 
-                    <input type="text" class="newsletter_input" placeholder="Ingresa tu email">
+                    <input type="email" class="newsletter_input" placeholder="Ingresa tu email">
 
                     <input type="submit" class="newsletter_submit" value="Comienza hoy">
 
@@ -353,11 +355,13 @@
 
         </main>
 
-        <footer class="footer">
+        <footer class="footer" id="footer">
 
             <div class="container footer_caption">
 
                 <section class="download">
+
+                    <h3 class="title_footer">Descarga nuestra app</h3>
 
                     <div class="download_app">
 
@@ -445,9 +449,9 @@
                 
                 </div>
 
-                <div class="item_contact">
+                <div class="item_contact item_contact_gold">
                 
-                    <i class="bx bxs-chat contact_icon"></i>
+                    <i class="bx bxs-chat contact_icon contact_icon_modifier"></i>
                 
                     <h3 class="contact_title">Contactanos ahora</h3>
                 
@@ -460,15 +464,3 @@
     </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-<!-- https://www.youtube.com/watch?v=rsGWyVvIOJ8&ab_channel=AlexCGDesign -->
